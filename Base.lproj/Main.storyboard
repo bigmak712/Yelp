@@ -47,7 +47,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="McDonald's" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3z5-pv-oPq">
-                                                    <rect key="frame" x="81" y="8" width="204" height="18"/>
+                                                    <rect key="frame" x="81" y="8" width="226" height="18"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -96,7 +96,7 @@
                                                 <constraint firstItem="oTj-5H-4re" firstAttribute="top" secondItem="PCb-Eg-zed" secondAttribute="bottom" constant="7" id="YWe-oA-ByD"/>
                                                 <constraint firstItem="0AK-E2-wvR" firstAttribute="leading" secondItem="38J-Y2-jXQ" secondAttribute="trailing" constant="8" id="asD-dQ-7E4"/>
                                                 <constraint firstItem="38J-Y2-jXQ" firstAttribute="top" secondItem="mmx-DK-9tc" secondAttribute="top" constant="8" id="eZ8-aB-Vyq"/>
-                                                <constraint firstItem="PCb-Eg-zed" firstAttribute="leading" secondItem="3z5-pv-oPq" secondAttribute="trailing" constant="30" id="g5D-Us-cIS"/>
+                                                <constraint firstItem="PCb-Eg-zed" firstAttribute="leading" secondItem="3z5-pv-oPq" secondAttribute="trailing" constant="8" id="g5D-Us-cIS"/>
                                                 <constraint firstItem="3z5-pv-oPq" firstAttribute="leading" secondItem="38J-Y2-jXQ" secondAttribute="trailing" constant="8" id="g8s-D9-N1l"/>
                                                 <constraint firstAttribute="trailing" secondItem="PCb-Eg-zed" secondAttribute="trailing" constant="15" id="grS-Sf-0Sy"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="DoE-v1-FLz" secondAttribute="bottom" constant="12" id="lCK-Oe-yUe"/>
