@@ -66,28 +66,32 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-        if filteredData != nil {
-            return filteredData.count
+        /*
+        if searchBar.text!.isEmpty {
+            return (businesses?.count)!
         }
         else {
-            return 0
+            return (filteredData?.count)!
         }
-        /*
+        */
         if businesses != nil {
-            return businesses.count
+            if searchBar.text!.isEmpty{
+                return businesses.count
+            }
+            else{
+                return filteredData.count
+            }
         }
         else{
             return 0
         }
-        */
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "BusinessCell", for: indexPath) as! BusinessCell
         //cell.business = businesses[indexPath.row]
         
-        cell.business = filteredData[indexPath.row]
+        cell.business = searchBar.text!.isEmpty ? businesses![indexPath.row] : filteredData![indexPath.row]
         
         return cell
     }
